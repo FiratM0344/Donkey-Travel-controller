@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    height: 5vw;
+    width: 100vw;
+    top: 0;
+    background-color: orange;
+    position: relative;
+}
+
+.buttons{
+    height: 3vw;
+    width: 8vw;
+    border-radius: 5vw;
+    top: -2vw;
+    right: 20vw;
+    background-color: white;
+    margin-left: 5vw;
+    position: relative;
+    float: right;
+    text-align: center;
+    line-height: 3vw;
+    text-decoration: none;
+    box-shadow: .2vw .2vw .5vw black;
+}
+
+#profile{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 3vw;
+    position: relative;
+    float: right;
+    right: 10vw;
+    top: -2vw;
+    background-color: white;
+    box-shadow: .2vw .2vw .5vw black;
+    text-align: center;
+    line-height: 3vw;
+}
+
+#content{
+    height: 32vw;
+    width: 30vw;
+    position: relative;
+    left: 10vw;
+    top: 2vw;
+    background-color: orange;
+    border-radius: 1vw;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3vw;
+}
+
+h2{
+    font-size: 2.5vw;
+    color: white;
+    position: relative;
+    top: 1vw;
+    margin-left: 5vw;
+}
+
+h3, h4{
+    position: relative;
+    top: 2vw;
+    width: 26vw;
+    left: 2vw;
+    color: white;
+    text-align: center;
+}
+
+.info{
+    position: relative;
+    top: 2vw;
+    left: 10vw;
+    width: 40vw;
+    background-color: orange;
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: .2vw .2vw .5vw black;
+}
+
+.dates{
+    width: 1.1vw;
+    margin: .95vw;
+    background-color: yellow;
+    border-radius: 1vw;
+    padding: 1vw;
+    float: left;
+    position: relative;
+}
+
+#button{
+    padding: 1vw;
+    border-radius: .5vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    width: 10vw;
+}
+
+#loginHeader{
+    text-align: center;
+    position: relative;
+    top: 1vw;
+    color: white;
+}
+
+#bg{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 3vw;
+}
+
+#form{
+    height: 30vw;
+    width: 40vw;
+    background-color: rgb(0, 0, 0, .4);
+    border-radius: .5vw;
+    position: relative;
+    top: 5vw;
+    left: 30vw;
+}
+
+input{
+    width: 90%;
+    float: left;
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 5%;
+}
+
+#reg{
+    position: relative;
+    float: left;
+    top: 3vw;
+    margin-left: 2vw;
+    color: white;
+}
+
+textarea{
+    width: 25vw;
+    max-width: 25vw;
+    max-height: 25vw;
+    left: 2.5vw;
+    top: 5vw;
+    position: relative;
+}
